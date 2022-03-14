@@ -1,0 +1,47 @@
+package Exercice2;
+
+import java.util.ArrayList;                                                                                
+
+public class Etudiant {                                                                            
+	                                                                                               
+public double matricule;                                                                           
+public String nom;                                                                                 
+public ArrayList <Note> Notes;                                                                     
+                                                                                                   
+                                                                                                   
+                                                                                                   
+public Etudiant(double matricule, String nom) {                                                    
+	super();                                                                                       
+	this.matricule = matricule;                                                                    
+	this.nom = nom;                                                                                
+                                                                     
+}                                                                                                  
+                                                                                                   
+@Override                                                                                          
+public String toString() {                                                                         
+	return "Etudiant [ Notes=" + Notes + "]";         
+}                                                                                                  
+                                                                                                   
+public double getMatricule() {                                                                     
+	return matricule;                                                                              
+}                                                                                                  
+                                                                                                   
+public void setMatricule(double matricule) {                                                       
+	this.matricule = matricule;                                                                    
+}                                                                                                  
+                                                                                                   
+public String getNom() {                                                                           
+	return nom;                                                                                    
+}                                                                                                  
+                                                                                                   
+public void setNom(String nom) {                                                                   
+	this.nom = nom;                                                                                
+}                                                                                                  
+                                                                                                   
+public void AjoutNote(Note n) {                                                                    
+	Notes.add(n);                                                                                  
+}                                                                                                  
+                                                                                                   
+                                                                                                   
+}                                                                                                  
+                                                                                                   

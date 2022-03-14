@@ -1,0 +1,12 @@
+package Exercice1;
+import java.util.Collection;
+import java.util.ArrayList;
+import java.util.Iterator;
+public class Test {
+	TacheComplexe ta = new TacheComplexe("A");
+	ta.ajouter(new TacheElementaire("A1", 10));
+	ta.ajouter(new TacheElementaire("A2", 20));
+	System.out.println("Cout = " + tA.getCout());
+		 }
+		 }
+}

@@ -1,0 +1,46 @@
+package Exercice1;
+
+import java.util.ArrayList;
+
+public class TacheElementaire implements Tache {
+	public int nbrT,cout;                                                                           
+	public String nom;
+	public ArrayList <SousTache> SousTaches; 
+	
+	public TacheElementaire(int nbrT, int cout, String nom) {                                                    
+		super();                                                                                       
+		this.nbrT = nbrT;     
+		this.cout = cout;     
+		this.nom = nom;                                                                                
+		SousTaches = new ArrayList<>();                                                                     
+	}
+
+	@Override
+	public String toString() {
+		return "TacheElementaire [nbrT=" + nbrT + ", cout=" + cout + ", nom=" + nom + "]";
+	}
+
+	public int getNbrT() {
+		return nbrT;
+	}
+
+	public void setNbrT(int nbrT) {
+		this.nbrT = nbrT;
+	}
+
+	public int getCout() {
+		return cout;
+	}
+
+	public void setCout(int cout) {
+		this.cout = cout;
+	}
+
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}    
+}

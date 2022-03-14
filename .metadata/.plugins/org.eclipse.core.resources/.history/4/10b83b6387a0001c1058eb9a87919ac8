@@ -1,0 +1,18 @@
+package Exercice2;
+
+import java.util.Comparator;
+
+public class nomComparator implements Comparator<Etudiant> {
+
+	@Override
+	public int compare(Etudiant o1, Etudiant o2) {
+		if(this.o1.getMatricule()==o2.getMatricule()) {
+			return 0;
+		}
+		else if(this.o1.getMatricule()<o2.getMatricule()){
+			return -1;
+		}
+		else return 1;
+	}
+
+}

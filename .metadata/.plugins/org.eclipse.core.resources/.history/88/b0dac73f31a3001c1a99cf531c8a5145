@@ -1,0 +1,13 @@
+package Exercice1;
+
+public class SousTache {
+	public int nbrT,cout;                                                                           
+	public String nom;
+	
+	public SousTache(int nbrT, int cout, String nom) {
+		super();
+		this.nbrT = nbrT;
+		this.cout = cout;
+		this.nom = nom;
+	}
+}

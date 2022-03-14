@@ -1,0 +1,19 @@
+package Exercice2;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Stats {
+private ArrayList<Etudiant> etudiantsList;
+
+public Stats(ArrayList<Etudiant> etudiantsList) {
+	super();
+	etudiantsList = new ArrayList<>();   
+}
+
+void trierParMat()
+{
+	Collections.sort(etudiantsList);
+}
+
+}

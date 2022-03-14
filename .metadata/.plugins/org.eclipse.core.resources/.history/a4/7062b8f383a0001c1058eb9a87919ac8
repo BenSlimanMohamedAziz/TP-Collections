@@ -1,0 +1,13 @@
+package Exercice2;
+
+import java.util.ArrayList;
+
+public class Stats {
+private ArrayList<Etudiant> etudiantsList;
+
+public Stats(ArrayList<Etudiant> etudiantsList) {
+	super();
+	this.etudiantsList = etudiantsList;
+}
+
+}

@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class test {
+
+	public static void main(String[] args) {
+		ArrayList<Note> note=new ArrayList<Note>();
+		note.add(new Note("algo",20));
+		for(int i=0;i<note.size();i++)
+			System.out.println(note.get(i));
+	}
+
+}

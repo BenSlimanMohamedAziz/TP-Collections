@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class test {
+
+	public static void main(String[] args) {
+		Etudiant e=new Etudiant(10,"aziz");
+		Note n =new Note("Algo",20);
+		e.AjoutNote(n);
+	e.toString();
+	}
+}

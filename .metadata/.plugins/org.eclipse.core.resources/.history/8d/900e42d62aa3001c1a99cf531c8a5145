@@ -1,0 +1,12 @@
+package Exercice2;
+
+import java.util.Comparator;
+
+public class MoyComparator implements Comparator<Etudiant> {
+	
+	@Override
+	public double compare(Etudiant o1, Etudiant o2) {
+		return(o1.getAvg().compareTo(o2.getAvg()));
+		
+	}
+}

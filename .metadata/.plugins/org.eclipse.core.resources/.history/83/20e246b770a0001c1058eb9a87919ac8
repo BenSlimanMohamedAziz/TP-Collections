@@ -1,0 +1,47 @@
+import java.util.ArrayList;
+
+public class Etudiant {
+	
+public int matricule;
+public String nom;
+public ArrayList <Etudiant> Notes;
+
+public Etudiant(int matricule, String nom, ArrayList<Etudiant> notes) {
+	super();
+	this.matricule = matricule;
+	this.nom = nom;
+	Notes = notes;
+	
+}
+
+@Override
+public String toString() {
+	return "Etudiant [matricule=" + matricule + ", nom=" + nom + ", Notes=" + Notes + "]";
+}
+
+public int getMatricule() {
+	return matricule;
+}
+
+public void setMatricule(int matricule) {
+	this.matricule = matricule;
+}
+
+public String getNom() {
+	return nom;
+}
+
+public void setNom(String nom) {
+	this.nom = nom;
+}
+
+public ArrayList<Etudiant> getNotes() {
+	return Notes;
+}
+
+public void setNotes(ArrayList<Etudiant> notes) {
+	Notes = notes;
+}
+
+
+}

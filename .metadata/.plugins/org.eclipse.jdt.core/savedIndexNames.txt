@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\AZIZ\DSI22\Semester 2\P.O.O Avancée - Java\TP\Ben Sliman Mohamed Aziz DSI22 Atelier P.O.O Avancée\Atelier 3\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+928403085.index
+1329616157.index
+2650528744.index

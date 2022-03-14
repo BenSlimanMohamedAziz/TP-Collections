@@ -1,0 +1,25 @@
+package Exercice2;
+
+import java.util.Collections;
+
+public class test {
+
+	public static void main(String[] args) {
+		Etudiant e=new Etudiant(10,"aziz");
+		Stats s=new Stats();
+		
+		Note n =new Note("Algo",20);
+		Note n2 =new Note("PHP",18);
+		Note n3 =new Note("React",17);
+		
+		e.AjoutNote(n);
+		e.AjoutNote(n2);
+		e.AjoutNote(n3);
+		
+		
+	    System.out.println(e.toString());
+	    System.out.println("AVG : "+e.getAvg());
+	    System.out.println("Min : "+e.getMin());
+	    System.out.println("Max : "+e.getMax());
+	}
+}

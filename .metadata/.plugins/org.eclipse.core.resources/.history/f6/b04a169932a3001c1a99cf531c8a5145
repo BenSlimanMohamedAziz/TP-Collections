@@ -1,0 +1,12 @@
+package Exercice1;
+
+public class Test {
+	TacheComplexe tA = new TacheComplexe("A");
+	tA.ajouter(new TacheElementaire("A1", 10));
+	 tA.ajouter(new TacheElementaire("A2", 20));
+		
+		 System.out.println("Cout de tA = " + tA.getCout());
+		 }
+		 }
+
+}

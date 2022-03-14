@@ -1,0 +1,5 @@
+
+public class Note {
+private String NomCours;
+private double note
+}
